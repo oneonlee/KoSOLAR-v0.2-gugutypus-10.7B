@@ -37,22 +37,6 @@
 
 <br>
 
-- **(ENG) AI-Harness evaluation** [[link]](https://github.com/EleutherAI/lm-evaluation-harness)
-
-|      Tasks      |Version|Filter|n-shot|Metric|Value |   |Stderr|
-|------------------|-------|------|-----:|------|-----:|---|-----:|
-|MMLU              |N/A    |none  |     0|acc   |0.5826|±  |0.1432|
-|MMLU              |N/A    |none  |     5|acc   |      |±  |      |
-|HellaSwag         |      1|none  |     0|acc   |0.6075|±  |0.0049|
-|HellaSwag         |      1|none  |     5|acc   |      |±  |      |
-|BoolQ             |      2|none  |     0|acc   |0.8737|±  |0.0058|
-|BoolQ             |      2|none  |     5|acc   |      |±  |      |
-|COPA              |      1|none  |     0|acc   |0.8300|±  |0.0378|
-|COPA              |      1|none  |     5|acc   |      |±  |      |
-|truthfulqa        |N/A    |none  |     0|acc   |0.4249|±  |0.0023|
-|truthfulqa        |N/A    |none  |     5|acc   |      |±  |      |
-
-
 - **(KOR) AI-Harness evaluation** [[link]](https://github.com/Beomi/ko-lm-evaluation-harness)  
 
 
@@ -69,6 +53,22 @@
 |KoBEST-SentiNeg          |      0|none  |     0|acc   |0.5844|±  |0.0248|
 |KoBEST-SentiNeg          |      0|none  |     5|acc   |0.9471|±  |0.0112|
 
+<br>
+
+- **(ENG) AI-Harness evaluation** [[link]](https://github.com/EleutherAI/lm-evaluation-harness)
+
+|      Tasks      |Version|Filter|n-shot|Metric|Value |   |Stderr|
+|------------------|-------|------|-----:|------|-----:|---|-----:|
+|MMLU              |N/A    |none  |     0|acc   |0.5826|±  |0.1432|
+|MMLU              |N/A    |none  |     5|acc   |      |±  |      |
+|HellaSwag         |      1|none  |     0|acc   |0.6075|±  |0.0049|
+|HellaSwag         |      1|none  |     5|acc   |      |±  |      |
+|BoolQ             |      2|none  |     0|acc   |0.8737|±  |0.0058|
+|BoolQ             |      2|none  |     5|acc   |      |±  |      |
+|COPA              |      1|none  |     0|acc   |0.8300|±  |0.0378|
+|COPA              |      1|none  |     5|acc   |      |±  |      |
+|truthfulqa        |N/A    |none  |     0|acc   |0.4249|±  |0.0023|
+|truthfulqa        |N/A    |none  |     5|acc   |      |±  |      |
   
 ---
 
