@@ -1,9 +1,14 @@
-# KoSOLAR-v0.2-gugutypus-10.7B
+<div align='center'>
+   <h1>🤗 KoSOLAR-v0.2-gugutypus-10.7B ☀️</h1>
+</div>
 
 <div align='center'>
-  
-<img src="logo.png" >
-
+    <a href="https://huggingface.co/oneonlee/KoSOLAR-v0.2-gugutypus-10.7B"><img alt="Hugging Face" src="https://img.shields.io/badge/%F0%9F%A4%97-Models%20on%20Hub-yellow"></a>
+    <a href="/LICENSE"><img alt="License: CC BY-NC 4.0" src="https://img.shields.io/badge/License-CC%20BY%2D%2DNC%204.0-blue.svg"></a>
+    <a href="https://doi.org/10.57967/hf/1735"><img alt="DOI" src="https://img.shields.io/badge/DOI-10.57967%2Fhf%2F1735-blue"></a>
+  <br>
+  <br>
+    <img src="logo.png" >
 </div>
 
 ---
@@ -11,8 +16,8 @@
 
 ## Model Details
 
-**Model Developers**  
-- DongGeon Lee ([oneonlee](https://huggingface.co/oneonlee))
+**Model Developer**  
+- DongGeon Lee [[HuggingFace]](https://huggingface.co/oneonlee) [[GitHub]](https://github.com/oneonlee)
 
 **Model Architecture**  
 - **KoSOLAR-v0.2-gugutypus-10.7B** is a instruction fine-tuned auto-regressive language model, based on the [SOLAR](https://huggingface.co/upstage/SOLAR-10.7B-v1.0) transformer architecture.
@@ -27,7 +32,7 @@
 ---  
 
 
-## Model comparisons
+## Model Performances
 
 - **Ko-LLM leaderboard (YYYY/MM/DD)** [[link]](https://huggingface.co/spaces/upstage/open-ko-llm-leaderboard)
 
@@ -60,20 +65,20 @@
 |      Tasks      |Version|Filter|n-shot|Metric|Value |   |Stderr|
 |------------------|-------|------|-----:|------|-----:|---|-----:|
 |MMLU              |N/A    |none  |     0|acc   |0.5826|±  |0.1432|
-|MMLU              |N/A    |none  |     5|acc   |      |±  |      |
+|MMLU              |N/A    |none  |     5|acc   |0.5885|±  |0.1285|
 |HellaSwag         |      1|none  |     0|acc   |0.6075|±  |0.0049|
-|HellaSwag         |      1|none  |     5|acc   |      |±  |      |
+|HellaSwag         |      1|none  |     5|acc   |0.6098|±  |0.0049|
 |BoolQ             |      2|none  |     0|acc   |0.8737|±  |0.0058|
-|BoolQ             |      2|none  |     5|acc   |      |±  |      |
+|BoolQ             |      2|none  |     5|acc   |0.8826|±  |0.0056|
 |COPA              |      1|none  |     0|acc   |0.8300|±  |0.0378|
-|COPA              |      1|none  |     5|acc   |      |±  |      |
+|COPA              |      1|none  |     5|acc   |0.9100|±  |0.0288|
 |truthfulqa        |N/A    |none  |     0|acc   |0.4249|±  |0.0023|
-|truthfulqa        |N/A    |none  |     5|acc   |      |±  |      |
+|truthfulqa        |N/A    |none  |     5|acc   |  -   |±  |   -  |
   
 ---
 
 
-## Implementation Code
+## How to Use
 
 ```python
 ### KoSOLAR-gugutypus
@@ -89,3 +94,30 @@ model = AutoModelForCausalLM.from_pretrained(
 )
 tokenizer = AutoTokenizer.from_pretrained(repo)
 ```
+
+---
+
+## Citation
+```
+@misc {donggeon_lee_2024,
+	author       = { {DongGeon Lee} },
+	title        = { KoSOLAR-v0.2-gugutypus-10.7B (Revision 56841d5) },
+	year         = 2024,
+	url          = { https://huggingface.co/oneonlee/KoSOLAR-v0.2-gugutypus-10.7B },
+	doi          = { 10.57967/hf/1735 },
+	publisher    = { Hugging Face }
+}
+```
+
+---
+
+## References
+- [yanolja/KoSOLAR-10.7B-v0.2](https://huggingface.co/yanolja/KoSOLAR-10.7B-v0.2)
+- [upstage/SOLAR-10.7B-v1.0](https://huggingface.co/upstage/SOLAR-10.7B-v1.0)
+- [kyujinpy/KOR-gugugu-platypus-set](https://huggingface.co/datasets/kyujinpy/KOR-gugugu-platypus-set)
+- [squarelike/OpenOrca-gugugo-ko](https://huggingface.co/datasets/squarelike/OpenOrca-gugugo-ko)
+- [kyujinpy/KOR-OpenOrca-Platypus-v3](https://huggingface.co/datasets/kyujinpy/KOR-OpenOrca-Platypus-v3)
+- [Open-Orca/OpenOrca](https://huggingface.co/datasets/Open-Orca/OpenOrca)
+- [upstage/open-ko-llm-leaderboard](https://huggingface.co/spaces/upstage/open-ko-llm-leaderboard)
+- [EleutherAI/lm-evaluation-harness](https://github.com/EleutherAI/lm-evaluation-harness)
+- [Beomi/ko-lm-evaluation-harness](https://github.com/Beomi/ko-lm-evaluation-harness)
