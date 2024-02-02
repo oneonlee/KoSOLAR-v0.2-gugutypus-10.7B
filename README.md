@@ -20,7 +20,7 @@
 - DongGeon Lee [[HuggingFace]](https://huggingface.co/oneonlee) [[GitHub]](https://github.com/oneonlee)
 
 **Model Architecture**  
-- **KoSOLAR-v0.2-gugutypus-10.7B** is a instruction fine-tuned auto-regressive language model, based on the [SOLAR](https://huggingface.co/upstage/SOLAR-10.7B-v1.0) transformer architecture.
+- **KoSOLAR-v0.2-gugutypus-10.7B** is an instruction fine-tuned auto-regressive language model, based on the [SOLAR](https://huggingface.co/upstage/SOLAR-10.7B-v1.0) transformer architecture.
 
 **Base Model**
 - [yanolja/KoSOLAR-10.7B-v0.2](https://huggingface.co/yanolja/KoSOLAR-10.7B-v0.2)
