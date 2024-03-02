@@ -32,13 +32,14 @@
 ---  
 
 
-## Model Performances
+- **Ko-LLM leaderboard (2024/03/01)** [[link]](https://huggingface.co/spaces/upstage/open-ko-llm-leaderboard)
 
-- **Ko-LLM leaderboard (YYYY/MM/DD)** [[link]](https://huggingface.co/spaces/upstage/open-ko-llm-leaderboard)
+| Model                                     | Average     | Ko-ARC | Ko-HellaSwag | Ko-MMLU | Ko-TruthfulQA | Ko-CommonGen V2 |
+| ----------------------------------------- | ----------- | ------ | ------------ | ------- | ------------- | --------------- |
+| **[oneonlee/KoSOLAR-v0.2-gugutypus-10.7B](https://huggingface.co/oneonlee/KoSOLAR-v0.2-gugutypus-10.7B)** | **51.17**   | 47.78  | 58.29        | 47.27   | 48.31         | 54.19           |
+| [oneonlee/LDCC-SOLAR-gugutypus-10.7B](https://huggingface.co/oneonlee/LDCC-SOLAR-gugutypus-10.7B)  | 49.45   | 45.9   | 55.46        | 47.96   | 48.93         | 49              |
 
-| Model                 | Average | Ko-ARC | Ko-HellaSwag | Ko-MMLU | Ko-TruthfulQA | Ko-CommonGen V2 |
-| --------------------- | ------- | ------ | ------------ | ------- | ------------- | --------------- |
-| **KoSOLAR-gugutypus** | NaN     | NaN    | NaN          | NaN     | NaN           | NaN             |
+
 
 <br>
 
