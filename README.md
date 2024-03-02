@@ -74,9 +74,7 @@
 |COPA              |      1|none  |     0|acc   |0.8300|±  |0.0378|
 |COPA              |      1|none  |     5|acc   |0.9100|±  |0.0288|
 |truthfulqa        |N/A    |none  |     0|acc   |0.4249|±  |0.0023|
-<!--
 |truthfulqa        |N/A    |none  |     5|acc   |  -   |±  |   -  |
--->
 
 ---
 
