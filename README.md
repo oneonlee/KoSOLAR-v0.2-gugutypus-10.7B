@@ -2,9 +2,12 @@
    <h1>🤗 KoSOLAR-v0.2-gugutypus-10.7B ☀️</h1>
 </div>
 
+
+
 <div align='center'>
+    <a href="https://github.com/oneonlee/KoSOLAR-v0.2-gugutypus-10.7B"><img alt="GitHub" src="https://img.shields.io/badge/GitHub-181717.svg?style=flat&logo=GitHub"></a>
     <a href="https://huggingface.co/oneonlee/KoSOLAR-v0.2-gugutypus-10.7B"><img alt="Hugging Face" src="https://img.shields.io/badge/%F0%9F%A4%97-Models%20on%20Hub-yellow"></a>
-    <a href="/LICENSE"><img alt="License: CC BY-NC 4.0" src="https://img.shields.io/badge/License-CC%20BY%2D%2DNC%204.0-blue.svg"></a>
+    <a href="https://github.com/oneonlee/KoSOLAR-v0.2-gugutypus-10.7B/blob/main/LICENSE"><img alt="License: CC BY-NC 4.0" src="https://img.shields.io/badge/License-CC%20BY%2D%2DNC%204.0-blue.svg"></a>
     <a href="https://doi.org/10.57967/hf/1735"><img alt="DOI" src="https://img.shields.io/badge/DOI-10.57967%2Fhf%2F1735-blue"></a>
   <br>
   <br>
